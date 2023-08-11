@@ -1,0 +1,66 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+
+
+*{
+    font-family: 'Karla' , sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background: hsl(204, 43%, 93%);
+}
+
+.wrapper {
+    width: 650px;
+    height: 500px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.wrapper_top {
+    height: 145px;
+    padding: 40px;
+}
+.wrapper_bottom{
+    height: 275px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.wrapper_top .title{
+    font-size: 22px;
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+}
+
+.wrapper_top .subtitle{
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(71, 73%, 54%);
+    padding-top: 25px;
+}
+
+.wrapper_top .text{
+    color:hsl(218, 22%, 67%);
+    line-height: 25px;
+}
+
+.wrapper_price_content{
+    width: 50%;
+    height: 100%;
+    background: hsl(179, 62%, 43%);
+    border-end-start-radius: 10px;
+}
+
+.wrapper_whyus_content{
+    width: 50%;
+    height: 100%;
+    background: hsl(179, 62%, 43%, 0.75);
+    border-end-end-radius: 10px;
+}
